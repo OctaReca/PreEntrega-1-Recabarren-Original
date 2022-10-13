@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-bar li a:hover{
+    color: pink;
+
+}
+header {
+    background-color: bisque;
+
+}
+.fondo{
+    background-color: rgb(243, 196, 255);
+}
+
+/**CSS DE HOME**/
+.fuente {
+    font-family: 'Roboto', sans-serif;
+}
+
+.estilo-h1 {
+    color: rgb(234, 2, 230);
+    background-color: rgb(255, 196, 247);
+    text-align: center;
+    font-size: 35px;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.tamaño {
+    font-size: 20px;
+}
+
+.logo {
+    width: 300px;
+    /**Esta imagen despues iria en el centro**/
+    /**NO LA PONGO EN EL CENTRO CON BOX MODELING PORQUE EL PROFESOR NOS DIJO Q NO PUCIERAMOS MUCHOS PX PARA TRATAR DE DEJARA ALGO EN EL MEDIO**/
+}
+
+/**ACA USE BOX MODELING**/
+.tamaño-fotos-home {
+    width: 200px;
+    height: 285px;
+    padding: 10px;
+    margin: 60px;
+}
+
+
+/**CSS DE ABOUT ME**/
+/**ALGUNOS CSS SE REPITEN DE LAS CLASES ANTERIORES, ACA VAN LOS NUEVOS Q TIENEN Q SER SOLO PARA ABOUT ME**/
+/**ACA USE BOX MODELING**/
+.color-h1 {
+    background-color: rgb(255, 196, 247);
+    padding: 20px;
+}
+
+/**CSS DE MEASUREMENTS**/
+/**ALGUNOS CSS SE REPITEN DE LAS CLASES ANTERIORES, ACA VAN LOS NUEVOS Q TIENEN Q SER SOLO PARA MEASUREMENTS**/
+
+.tamaño-fotos-measurements {
+    /**ACA USE BOX MODELING**/
+    width: 1000px;
+    padding: 20px;
+}
+
+/**ACA USE BOX MODELING**/
+
+main div p {
+    padding: 20px;
+}
+
+/**CSS DE PRODUCTS**/
+/**ALGUNOS CSS SE REPITEN DE LAS CLASES ANTERIORES, ACA VAN LOS NUEVOS Q TIENEN Q SER SOLO PARA PRODUCTS**/
+/**ACA USE BOX MODELING**/
+.tamaño-fotos-products {
+    padding: 10px;
+    border: 50px;
+    margin: 60px;
+    width: 300px;
+    height: 200px;
+}
+
+/**CSS DE CONTACT**/
+/**ACA USE BOX MODELING**/
+.distancia-contact {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 800px;/**USE MUCHOS PX, ESPERO Q ESTE BIEN, ES MODO ILUSTRATIVO SOLAMENTE...**/
+}
+.ancho-elementos{
+    width: 100px;
+}
+nav a{
+    text-decoration: none;
+}
